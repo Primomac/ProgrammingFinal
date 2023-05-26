@@ -661,6 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394707091}
   - component: {fileID: 394707090}
+  - component: {fileID: 394707092}
   - component: {fileID: 394707089}
   - component: {fileID: 394707088}
   m_Layer: 0
@@ -784,6 +785,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &394707092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394707087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46882d8c8018414cbc5322c6cac622e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  newCarColorSprite: {fileID: 0}
 --- !u!1 &439742417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1623,7 @@ GameObject:
   - component: {fileID: 773113440}
   - component: {fileID: 773113439}
   - component: {fileID: 773113438}
+  - component: {fileID: 773113442}
   m_Layer: 0
   m_Name: SpeedBoost
   m_TagString: Untagged
@@ -1729,6 +1745,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+--- !u!114 &773113442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773113437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69914015ac9432745867cb6c706cccb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  originalSpeed: 0
+  boostedSpeed: 0
 --- !u!1 &866235275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,6 +1770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866235279}
   - component: {fileID: 866235278}
+  - component: {fileID: 866235280}
   - component: {fileID: 866235277}
   - component: {fileID: 866235276}
   m_Layer: 0
@@ -1862,6 +1894,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &866235280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866235275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46882d8c8018414cbc5322c6cac622e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  newCarColorSprite: {fileID: 0}
 --- !u!1 &1209273258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,6 +2716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887034677}
   - component: {fileID: 1887034676}
+  - component: {fileID: 1887034678}
   - component: {fileID: 1887034675}
   - component: {fileID: 1887034674}
   m_Layer: 0
@@ -2793,6 +2840,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1887034678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887034673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46882d8c8018414cbc5322c6cac622e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  newCarColorSprite: {fileID: 0}
 --- !u!1 &2086630568
 GameObject:
   m_ObjectHideFlags: 0
